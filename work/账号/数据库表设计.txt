@@ -1,0 +1,114 @@
+WOOK库：
+
+语言切换
+
+ en_us 英
+ zh_cn 中
+ id_id 印尼
+
+用户相关
+user      用户表
+address   用户收货地址表
+behavior_analysis 用户行为分析表
+user_tax_info  用户税卡相关详情表
+order_discount   MD折扣配置表
+user_payment   用户收款协议表
+wx_userinfo    微信用户表
+
+orderinfo_sub 订单子表
+orderinfo_main 订单主表
+
+return_rquest       申请退货主表
+return_request_sub  申请退货子表
+return_audit_history 申请退货审核表
+
+delivery_order_main 发货单主表
+delivery_order_sub  发货单子表
+
+sales_invoice_mian 销售发票主表
+sales_invoice_sub   销售发货子表
+
+商品相关
+goods         商品表
+goods_analysis 商品分析表
+goods_stock  商品库存表
+goods_freight  商品运费表
+freight_template 运费模板表
+goods_mark_detail商品标详情表
+promotion_gift_rule 满立送活动表
+tiered_pricing     阶梯价表
+activity_promote    活动表
+brand                品牌表
+class                品类表
+category_brand  品牌品类中间表
+goods_command_gather  商品详情相关商品推荐表
+cart 购物车表
+
+
+shop 供应商店铺表
+department 部门表（分公司表）
+salesman 业务员表
+team 事业部表
+
+order_discount   MD折扣配置表
+oa_account OA后台用户表
+oa_role  OA角色表
+
+物流信息管理
+deliveryman  送货员表
+logistics_company 物流公司表
+logistics_template_info 模板表
+freight_rules 运费规则表
+stock_out_main 出库单主表
+stock_out_sub  出库单子表
+
+
+
+拜访计划：
+sbs_visit_plan  拜访计划表
+sbs_plan_comment  拜访计划评论表
+sbs_sales_call    拜访计划打卡表
+
+
+
+
+报表系统：
+sbs_user表
+sbs_user_repayment  回款信息表
+sbs_data_option      指标项表
+sbs_department       部门表
+sbs_department_user   部门用户表
+sbs_report_summary  指标汇总表
+sbs_remittance_tasks 任务表
+sbs_sales_task   业务员任务表
+sbs_tag          标签表
+sbs_tag_user     标签用户表
+sbs_user         用户表
+sbs_user_order_info_del 业务员订单详情表
+
+
+agent_accepted  代理商以确认
+agent_delivered  代理商已发货
+agent_generated   代理商客户新订单
+agent_purchased   代理商向wook采购
+
+
+returned  已退货
+received  已收货
+generate 新订单
+delivered 已发货
+delivered(part)  部分发货
+closed   取消
+cancelled  以拒绝
+billing   开票中
+booking   预售
+finished        已完成
+finished(part) 部分完成
+
+
+new 新任务
+pending 待解决
+following 继续跟进
+feedback 反馈
+complete 完成
+

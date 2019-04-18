@@ -1,0 +1,39 @@
+# SwitchHosts!
+
+# My hosts
+
+#app&shop&oa
+47.90.80.202 m.wook.hk
+47.90.80.202 s.wook.hk
+47.90.80.202 static.wook.hk
+47.90.80.202 d.wook.hk
+47.90.80.202 oa2.wook.hk
+47.90.80.202 oa.wook.hk
+47.90.80.202 shop.wook.id
+47.90.80.202 oa2.wookoa.hk
+47.90.80.202 wx.wook.hk
+47.90.80.202 m.wook.id
+47.90.80.202 s.wook.id
+47.90.80.202 static.wook.id
+47.90.80.202 d.wook.id
+47.90.80.202 d1.wook.id
+47.90.80.202 static1.wook.id
+47.90.80.202 oa2.wook.id
+47.90.80.202 oa.wook.id
+47.90.80.202 wxtest.wook.hk
+47.90.80.202 wxtest.wook.id
+47.90.80.202 app.wook.id
+47.90.80.202 api.wook.id
+# 新线上环境
+149.129.215.10 app.wook.id
+149.129.215.10 api.wook.id
+149.129.215.10  oa.wook.id 
+149.129.215.10 shop.wook.id
+
+
+#sbs
+
+47.90.80.202 sbsm.wook.id
+47.90.80.202 sbsd.wook.id
+47.90.80.202 sbsstatic.wook.id
+47.90.80.202 www.wook.id

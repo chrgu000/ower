@@ -1,0 +1,65 @@
+﻿电脑pin码为：2018
+
+发布系统：http://admin.tools.wook.hk
+账号：pengzhipeng@wook.id
+密码：123456
+
+SVN账号信息：
+    账号：pengzhipeng
+    密码：pzp@WooK0925
+svn://47.90.80.202/wook_main_proj/wook_product_requirements/测试相关
+svn://47.90.80.202/wook_main_proj/wook_product_requirements/智能业务管理系统2018
+svn://47.90.80.202/wook_main_proj/wook_product_requirements/OA产品项目
+svn://47.90.80.202/wook_main_proj/wook_product_requirements/APP
+svn://47.90.80.202/wook_main_proj/wook_product_requirements/UI
+
+APP个人用户	账号：0801234567890
+	        密码：147258
+			账号：089898989898（供应商客户）0812345666 
+			账号：088787878787 081313131313（个人账户）08123455555
+			
+OA账户      账号：test_pzp
+			密码：123456789
+erp账户     账号：test_pengzhipeng
+			密码：qwas2018
+数据库		账号：pengzp
+			密码：jvdmzgkxoic>B9ubhV3n
+	新测试数据库 用户 test 密码 Zowf$I74b     iP:47.91.136.95
+Xshell      账号：pengzp        IP:47.90.80.202
+            密码：u82lGtc(qR
+            端口：16789
+Xshell6    IP: 47.91.136.95
+         	账号：pengzp
+	密码：qw1989419qwa
+	端口：50319
+AR账号		va账号：niuniu 
+			密码：NiuBi@WOOK0503
+OA系统：oa.wook.id
+http://tools.wook.hk
+帐号：pengzhipeng@wook.id
+密码：{wook2018!@#}123456
+
+
+线上APP账号：
+业务员公共账号：sales@wook.id
+代理商 821618    0801234567890
+代理商客户821639 0878956458
+普通客户 815033     0813670537381
+线上OA账号：test_pzp密码：01234567890
+
+灰度测试
+app:   https://app.wook.id
+oa:  http://oa2018.wook.id
+卖家后台：http://shop2018.wook.id
+
+1 线上测试 修改cooking  https://sbsm.wook.id/visitplan.html/visitclient/list?user_id=xxxxxx                        中文  YinNiYuChengCheng  分总
+                irwan   小林      事业部经理
+2、wook库只读账号
+用户名：wook_read
+密码：tMGtvsdrewz~c2vccj4i
+连接ip：149.129.193.91
+连接端口：40396
+
+
+
+

@@ -1,0 +1,23 @@
+﻿Xshell      账号：test_pzp
+            密码：123456
+			主机：47.90.80.202
+			端口号：16789
+cd /var/www/wook_main_proj/sync_erp/wook php     1  php  sync_order_to_erp.php 同步订单至erp
+    2    php sync_order_status_to_erp.php 同步订单状态至erp
+    3    sync_customer_to_erp.php 同步客户至erp
+    4    sync_goods_to_erp.php 同步商品至erp
+	5    php /var/www/wook_main_proj/sync_erp/wook/sync_invoice_amount_from_erp.php 同步发票
+redis :
+      1、 redis-cli
+  密码：2、auth wook201314!@#$%^
+      3、select 2   
+      4、keys goods_stock:*  
+      5、hget goods_stock:101 100025
+"{\"warehouse_id\":101,\"shop_id\":\"101\",\"shop_name\":\"WOOK Official Store\",\"goods_id\":100025,\"erp_inventory\":0,\
+"erp_transfer_in\":0,\"erp_unfilled_normal\":0,\"erp_unfilled_booking\":0,\"estimated_time_of_arrival\":0,\"last_erp_sync_time\":
+1542772747,\"erp_delivered_num\":10,\"delivery_in_num\":0,\"app_unsynced_normal\":0,\"app_unsynced_booking\":0,\"app_stock_taking\
+":\"0\",\"app_available_num\":0,\"app_booking_num\":0}"
+  转义后    6、hset goods_stock:101 100025
+'{"warehouse_id":101,"shop_id":"101","shop_name":"WOOK Official Store","goods_id":100025,"erp_inventory":0,"erp_transfer_in":1000,"
+erp_unfilled_normal":0,"erp_unfilled_booking":0,"estimated_time_of_arrival":1545031530,"last_erp_sync_time":1542772747,"erp_delivered_num":10,
+"delivery_in_num":0,"app_unsynced_normal":0,"app_unsynced_booking":0,"app_stock_taking":"0","app_available_num":0,"app_booking_num":0}
